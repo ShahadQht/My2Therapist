@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="33dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="431dp"
+        android:src="@drawable/arrow" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="446dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="418dp"
+        android:layout_marginBottom="0dp"
+        android:textAlignment="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quando"
+                android:text="My biggest failures have been always the most life changing. People like J.K. Rowling, author of the Harry Potter series got constant rejection from publishers, Steve Jobs lost Apple, Oprah got fired at 23. Not of those failures stopped them from being successful."
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="36sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="339dp"
+        android:layout_height="207dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="592dp"
+        android:fontFamily="@font/courgette"
+        android:text="Never fear failure"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="55sp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="227dp"
+        android:layout_height="172dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="422dp"
+        app:srcCompat="@drawable/fail" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="254dp"
+        android:layout_height="220dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="398dp"
+        app:srcCompat="@drawable/noo" />
+
+</RelativeLayout>

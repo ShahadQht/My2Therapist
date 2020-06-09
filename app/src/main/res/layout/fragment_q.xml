@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QFragment"
+    android:background="@drawable/bg2">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="33dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="338dp"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="420dp"
+        android:layout_height="386dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="407dp"
+        android:fontFamily="@font/courgette"
+        android:text="'The past can hurt. But the way I see it you can either run from it or learn from it.'"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="349dp"
+        android:layout_height="399dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="98dp"
+        android:src="@drawable/rafiki" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="135dp"
+        android:layout_height="94dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/youtube" />
+
+
+</RelativeLayout>

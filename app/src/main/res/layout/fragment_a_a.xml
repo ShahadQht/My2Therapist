@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AAFragment"
+    android:background="@drawable/bg2">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="33dp"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="431dp"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="388dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="650dp"
+        android:fontFamily="@font/courgette"
+        android:text="Focus on making an impact"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="299dp"
+        android:layout_height="236dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="396dp"
+        android:src="@drawable/smile" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/quando"
+        android:text='Make your work meaningful and if your work isn’t, do something about it. Ask yourself ‘If this was my last day, would I feel content?'
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="35sp" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QQ4Fragment"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="367dp"
+        android:layout_height="381dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="393dp"
+        android:fontFamily="@font/courgette"
+        android:text="'Every locked door has a key'"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="70sp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-126dp"
+        android:layout_marginBottom="112dp"
+        android:src="@drawable/key" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="135dp"
+        android:layout_height="94dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/youtube" />
+</RelativeLayout>
